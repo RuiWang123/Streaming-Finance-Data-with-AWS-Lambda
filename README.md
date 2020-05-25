@@ -29,8 +29,7 @@ We can use docker to install necessary packges where we don't have to install th
 
 In order to run lambda functions that also manage dependencies, we must leverage a "deployment package", basically a zip file containing our lambda code and all the dependencies it needs all packaged into a single artifact. For more details we can find it here. 
 
-[STA9760_simple_deployment_package By Professor Taq](https://github.com/mottaquikarim/STA9760_simple_deployment_package)
-
+[STA9760 Simple_Deployment Package By Professor Taq](https://github.com/mottaquikarim/STA9760_simple_deployment_package)
 
 
 ### Kinesis Data Firehose Delivery Stream Monitoring
