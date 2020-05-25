@@ -30,7 +30,7 @@ We can use docker to install necessary packges where we don't have to install th
 
 In order to run lambda functions that also manage dependencies, we must leverage a "deployment package", basically a zip file containing our lambda code and all the dependencies it needs all packaged into a single artifact. For more details we can find it here. 
 
-[STA9760 Simple_Deployment Package By Professor Taq](https://github.com/mottaquikarim/STA9760_simple_deployment_package)
+[STA9760 Simple Deployment Package By Professor Taq](https://github.com/mottaquikarim/STA9760_simple_deployment_package)
 
 After we have created our deployment packages, we can simply upload the file to AWS Lambda Function and create a test to test if the function can be executed successfully. If it does, data will be generated and pushed to the AWS S3 bucket. 
 
