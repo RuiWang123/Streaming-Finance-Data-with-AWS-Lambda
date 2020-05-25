@@ -15,4 +15,10 @@ Data Collector Lambda Function URL:
 https://eb9iumoz0b.execute-api.us-east-2.amazonaws.com/default/STA9760-project3-data-collector
 
 Configuration Page
+![image](https://raw.githubusercontent.com/hailin-du/Streaming-Finance-Data-with-AWS-Lambda/master/Images/Data%20Collector%20Lambda%20%20Function.png)
 
+
+### Kinesis Data Firehose Delivery Stream Monitoring
+
+Stream Monitoring
+![image](https://raw.githubusercontent.com/hailin-du/Streaming-Finance-Data-with-AWS-Lambda/master/Images/Data%20Monitoring.png)
