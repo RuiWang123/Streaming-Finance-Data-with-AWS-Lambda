@@ -9,3 +9,4 @@ This project consists of three major infrastructure elements that work in tandem
 1. A lambda function that transforms and places data into S3 (DataTransformer)
 1. A serverless process that allows us to query our s3 data (DataAnalyzer)
 
+### Data Collector Lambda Function Configuration Page
