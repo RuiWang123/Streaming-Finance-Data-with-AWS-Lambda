@@ -32,6 +32,7 @@ In order to run lambda functions that also manage dependencies, we must leverage
 
 [STA9760 Simple_Deployment Package By Professor Taq](https://github.com/mottaquikarim/STA9760_simple_deployment_package)
 
+After we have created our deployment packages, we can simply upload the file to AWS Lambda Function and create a test to test if the function can be executed successfully. If it does, data will be generated and pushed to the AWS S3 bucket. 
 
 ### Kinesis Data Firehose Delivery Stream Monitoring
 
