@@ -10,7 +10,7 @@ This project consists of three major infrastructure elements that work in tandem
 1. A serverless process that allows us to query our s3 data (DataAnalyzer)
 
 ### Process Break Down
-#### AWS Firehose -> AWS Lambda Functions -> Docker Deployment Package -> AWS Glue -> AWS Athena -> Jupyter Notebook Analysis
+##### AWS Firehose -> AWS Lambda Functions -> Docker Deployment Package -> AWS Glue -> AWS Athena -> Jupyter Notebook Analysis
 1. Setup **Kinesis Firehose Delivery Stream with Lambda Function**. It will transform our record and streams it into an S3 bucket. (DataTransformer)
 2. Setup Another **Lambda Function**, triggered from a simple URL call. On trigger, it will grab stock price data and place it into the delivery defined in the DataTransformer. (DataCollector)
 3. Configure **AWS Glue**, pointing it to the **AWS S3 Bucket** we created in our DataTransformer.
